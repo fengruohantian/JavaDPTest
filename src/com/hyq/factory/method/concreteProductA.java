@@ -1,9 +1,9 @@
-package com.hyq.factory.simple;
+package com.hyq.factory.method;
 /**
  * 产品A
  * @author Janus
  */
-public class concreteProductA implements Product {
+public class concreteProductA extends Product {
 	public concreteProductA(){
 		System.out.println("我是产品A!");
 	}
